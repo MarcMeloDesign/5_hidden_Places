@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+}
+.ledge{
+    width:300px;
+    height: auto;
+}
+.ldrawing{
+    width:500px;
+    height: 300px;
+}
+.lmap{
+    width:300px;
+    height: 300px;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
