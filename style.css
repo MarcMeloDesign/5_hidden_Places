@@ -2,18 +2,130 @@
     margin:0;
     padding:0;
 }
-.ledge{
-    width:300px;
-    height: auto;
+/* nav bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #242121;
 }
-.ldrawing{
-    width:500px;
-    height: 300px;
+
+li {
+    float: left;
+    font-family:Arial, Helvetica, sans-serif;
+   
 }
-.lmap{
-    width:300px;
-    height: 300px;
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
+
+li a:hover {
+    background-color: #B99c6b;
+}
+
 p{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+/* Page1 */
+#Page1{
+    max-Height: 50%;
+    min-height: 50%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 200%;
+    padding: 25%;
+    background-image: url("/images/img_Map_03.png");
+}
+/* Page2 */
+#Page2{
+    max-Height: 100%;
+    min-height: 100%;
+    background-color: #242121;
+}
+
+#Island{
+    width: 100%;
+    height: auto;
+    border: 3px solid #a97d30;
+    margin: 20px;
+
+   
+}
+
+#Island:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#P30{
+    width: 100%;
+    height: auto;
+    border: 3px solid #a97d30;
+    margin: 20px; 
+}
+#P30:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#TheBogs{
+    width: 100%;
+    height: auto;
+    border: 3px solid #a97d30;
+    margin: 20px;
+}
+#TheBogs:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#TheLedge{
+    width: 100%;
+    height: auto;
+    border: 3px solid #a97d30;
+    margin: 20px; 
+}
+#TheLedge:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#PRock{
+    width: 100%;
+    height: auto;
+    border: 3px solid #a97d30;
+    margin: 20px;
+}
+#PRock:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
+
+.container > div > img {
+    /* width: 100%;
+    height: 100%; */
+    /* object-fit: cover; */
+    margin: 5px;
+    position: relative;
+    top: 2%;
+   
+}
+
+.container{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+
+   
+  
+}
+
